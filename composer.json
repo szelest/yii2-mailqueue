@@ -1,5 +1,5 @@
 {
-	"name": "nterms/yii2-mailqueue",
+	"name": "szelest/yii2-mailqueue",
 	"description": "Email queue component for yii2 that works with yii2-swiftmailer.",
 	"keywords": ["yii2", "extension", "component", "email", "queue", "swiftmailer", "yii2-swiftmailer"],
 	"homepage": "https://github.com/szelest/yii2-mailqueue",
@@ -7,17 +7,18 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Saranga Abeykoon",
-			"email": "amisaranga@gmail.com",
-			"homepage": "http://nterms.com/"
-		},
-		{
 			"name": "Robert Szelest",
 			"email": "robert@netlina.com",
 			"homepage": "http://netlina.com/"
+		},
+		{
+			"name": "Saranga Abeykoon",
+			"email": "amisaranga@gmail.com",
+			"homepage": "http://nterms.com/"
 		}
 	],
 	"require": {
+		"php": ">=7.4",
 		"yiisoft/yii2": "*",
 		"yiisoft/yii2-swiftmailer": "~2.1.0"
 	},
