@@ -9,8 +9,8 @@ namespace nterms\mailqueue;
 
 use Yii;
 use yii\swiftmailer\Mailer;
-use nterms\mailqueue\Message;
-use nterms\mailqueue\models\Queue;
+use szelest\mailqueue\Message;
+use szelest\mailqueue\models\Queue;
 
 /**
  * MailQueue is a sub class of [yii\switmailer\Mailer](https://github.com/yiisoft/yii2-swiftmailer/blob/master/Mailer.php)
@@ -22,7 +22,7 @@ use nterms\mailqueue\models\Queue;
  * 	'components' => [
  * 		...
  * 		'mailqueue' => [
- * 			'class' => 'nterms\mailqueue\MailQueue',
+ * 			'class' => 'szelest\mailqueue\MailQueue',
  *			'table' => '{{%mail_queue}}',
  *			'mailsPerRound' => 10,
  *			'maxAttempts' => 3,
@@ -53,7 +53,7 @@ class MailQueue extends Mailer
 	/**
 	 * @var string message default class name.
 	 */
-	public $messageClass = 'nterms\mailqueue\Message';
+	public $messageClass = 'szelest\mailqueue\Message';
 
 	/**
 	 * @var string the name of the database table to store the mail queue.
