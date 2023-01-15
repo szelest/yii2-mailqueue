@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist szelest/yii2-mailqueue "*"
+php composer.phar require --prefer-dist szelest/yii2-mailqueue "dev-master"
 ```
 
 or add
 
 ```
-"szelest/yii2-mailqueue": "*"
+"szelest/yii2-mailqueue": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
