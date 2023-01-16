@@ -24,7 +24,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"nterms\\mailqueue\\": ""
+			"szelest\\mailqueue\\": ""
 		}
 	},
         "extra": {
