@@ -5,7 +5,7 @@
  * @author Saranga Abeykoon http://nterms.com
  */
 
-namespace nterms\mailqueue;
+namespace szelest\mailqueue;
 
 use Yii;
 use yii\swiftmailer\Mailer;
